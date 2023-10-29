@@ -1,0 +1,27 @@
+﻿@model VisitorViewModel
+@{
+    ViewData["Title"] = "UpdateVisitor";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h3>Api ile Ziyaretçi Güncelleme</h3>
+<br />
+<form method="post">
+    <input type="hidden" asp-for="VisitorId" />
+    <label>Ziyaretçi Adı</label>
+    <input type="text" class="form-control" asp-for="Name" />
+    <br />
+    <label>Ziyaretçi Soyadı</label>
+    <input type="text" class="form-control" asp-for="Surname" />
+    <br />
+    <label>Ziyaretçi Şehri</label>
+    <input type="text" class="form-control" asp-for="City" />
+    <br />
+    <label>Ziyaretçi Ülkesi</label>
+    <input type="text" class="form-control" asp-for="Country" />
+    <br />
+    <label>Ziyaretçi Maili</label>
+    <input type="text" class="form-control" asp-for="Email" />
+    <br />
+    <button class="btn btn-outline-success">Ziyaretçi Güncelle</button>
+</form>

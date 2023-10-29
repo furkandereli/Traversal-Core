@@ -1,0 +1,106 @@
+﻿@model TraversalCore.Models.UserRegisterViewModel
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<title>Invent Signup Form Responsive Widget Template | Home :: W3layouts</title>
+	<!-- Meta tag Keywords -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8" />
+	<meta name="keywords"
+		  content="Invent Signup Form Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- //Meta tag Keywords -->
+	<!--/Style-CSS -->
+	<link rel="stylesheet" href="~/web/css/style.css" type="text/css" media="all" />
+    <link href="~/bootstrap/css/bootstrap.css" rel="stylesheet" />
+	<!--//Style-CSS -->
+</head>
+
+<body>
+	<!-- /login-section -->
+	<section class="w3l-login-6">
+		<div class="login-hny">
+			<div class="form-content">
+				<div class="form-right">
+					<div class="overlay">
+						<div class="grid-info-form">
+							<h5>Traversal Rezervasyon</h5>
+							<h3>Hesap Oluşturun</h3>
+							<p>
+								Rezervasyonunuzu geçe bırakmayın. En uygun fiyatlarla gezin, yiyin, için, eğlenin.
+								Tatile ihtiyacınız mı var?
+							</p>
+							<a href="/Login/SignIn/" class="btn btn-info">Hadi Başlayalım</a>
+						</div>
+
+					</div>
+				</div>
+				<div class="form-left">
+					<div class="middle">
+						<h4>Bize Katılın</h4>
+						<p>Hemen ücretsiz hesap oluşturun :)</p>
+					</div>
+					<form method="POST" class="signin-form">
+						<div class="form-input">
+							<label>Adınız</label>
+							<input type="text" asp-for="name" required/>
+						</div>
+						<div class="form-input">
+							<label>Soyadınız</label>
+							<input type="text" asp-for="surname" required/>
+							<span asp-validation-for="surname" class="text-danger"></span>
+						</div>
+						<div class="form-input">
+							<label>Kullanıcı Adınız</label>
+							<input type="text" asp-for="username" required/>
+							<span asp-validation-for="username" class="text-danger"></span>
+						</div>
+						<div class="form-input">
+							<label>Mail Adresiniz</label>
+							<input type="email" asp-for="email" required />
+							<span asp-validation-for="email" class="text-danger"></span>
+						</div>
+						<div class="form-input">
+							<label>Şifreniz</label>
+							<input type="password" asp-for="password" required />
+							<span asp-validation-for="password" class="text-danger"></span>
+						</div>
+						<div class="form-input">
+							<label>Şifre Tekrar</label>
+							<input type="password" asp-for="confirmPassword" required />
+							<span asp-validation-for="confirmPassword" class="text-danger"></span>
+						</div>
+
+						<div class="text-danger" asp-validation-summary="ModelOnly">
+
+						</div>
+
+						<button class="btn">Kayıt Ol</button>
+					</form>
+					<div class="copy-right text-center">
+						<p>
+							© @DateTime.Now.Year Tüm Hakları Saklıdır
+						</p>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</section>
+	<!-- //login-section -->
+</body>
+
+</html>

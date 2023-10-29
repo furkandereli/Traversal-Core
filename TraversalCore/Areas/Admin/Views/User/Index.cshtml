@@ -1,0 +1,39 @@
+﻿@using EntityLayer.Concrete
+@model List<AppUser>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int sayac = 0;
+}
+
+<h3>Kullanıcı Listesi</h3>
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Ad Soyad</th>
+        <th>Kullanıcı Adı</th>
+        <th>Mail</th>
+        <th>Sil</th>
+        <th>Düzenle</th>
+        <th>Yorumlar</th>
+        <th>Tur Geçmişi</th>
+    </tr>
+    @foreach(var item in Model)
+    {
+        <tr>
+            @{sayac++;}
+            <td>@sayac</td>
+            <td>@item.name @item.surname</td>
+            <td>@item.UserName</td>
+            <td>@item.Email</td>
+            <td><a href="/Admin/User/DeleteUser/@item.Id" class="btn btn-outline-danger" 
+                    onclick="return confirm('Silmek istediğine emin misin?')">Sil</a></td>
+            <td><a href="/Admin/User/EditUser/@item.Id" class="btn btn-outline-success">Düzenle</a></td>
+            <td><a href="/Admin/User/CommentUser/@item.Id" class="btn btn-outline-info">Yorumlar</a></td>
+            <td><a href="/Admin/User/ReservationUser/@item.Id" class="btn btn-outline-secondary">Tur Geçmişi</a></td>
+        </tr>
+    }
+</table>
+
+<a href="/Login/SignUp/" class="btn btn-outline-primary">Yeni Kullanıcı Oluştur</a>

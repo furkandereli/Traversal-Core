@@ -1,0 +1,11 @@
+C:\Users\Nyekruh\source\repos\TraversalCore\DTOLayer\bin\Debug\net6.0\DTOLayer.deps.json
+C:\Users\Nyekruh\source\repos\TraversalCore\DTOLayer\bin\Debug\net6.0\DTOLayer.dll
+C:\Users\Nyekruh\source\repos\TraversalCore\DTOLayer\bin\Debug\net6.0\DTOLayer.pdb
+C:\Users\Nyekruh\source\repos\TraversalCore\DTOLayer\obj\Debug\net6.0\DTOLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nyekruh\source\repos\TraversalCore\DTOLayer\obj\Debug\net6.0\DTOLayer.AssemblyInfoInputs.cache
+C:\Users\Nyekruh\source\repos\TraversalCore\DTOLayer\obj\Debug\net6.0\DTOLayer.AssemblyInfo.cs
+C:\Users\Nyekruh\source\repos\TraversalCore\DTOLayer\obj\Debug\net6.0\DTOLayer.csproj.CoreCompileInputs.cache
+C:\Users\Nyekruh\source\repos\TraversalCore\DTOLayer\obj\Debug\net6.0\DTOLayer.dll
+C:\Users\Nyekruh\source\repos\TraversalCore\DTOLayer\obj\Debug\net6.0\refint\DTOLayer.dll
+C:\Users\Nyekruh\source\repos\TraversalCore\DTOLayer\obj\Debug\net6.0\DTOLayer.pdb
+C:\Users\Nyekruh\source\repos\TraversalCore\DTOLayer\obj\Debug\net6.0\ref\DTOLayer.dll
