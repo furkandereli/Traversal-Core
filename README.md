@@ -2,6 +2,22 @@
 
 .Net Core ile geliştirdiğimiz bu site trivago, booking.com benzeri bir yapıdadır.
 
+Eğitim Serisinde Yer Verilen Başlıca Teknolojiler:
+- N Katmanlı Mimari
+- Generic Repository Pattern
+- CQRS
+- MediatR
+- SignalR
+- Uof ( Unit Of Work )
+- Entity Framework ( Code First )
+- AutoMapper
+- Web Api
+- PostgreSQL
+- MySQL
+- HTML5
+- Bootstrap
+- Postman
+
 Proje içeriğiyle ilgili görselleri aşağıda görebilirsiniz.
 
 Saygılar.
